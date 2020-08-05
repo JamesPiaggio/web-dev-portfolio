@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "A website that randomly selects a quote and displays it with a different color every 9 seconds.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://jamespiaggio.github.io/RandomQuote/",
+            "github_link": "https://github.com/JamesPiaggio/RandomQuote",
+            "image_urls": ["https://via.placeholder.com/550/"]
+        },
+        {
+            "id": 1,
+            "project_name": "Pagination and Filtering",
+            "description": "A website that dynamically adds pagination for 10 students per page and filtering with a dynamic searchbar.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://jamespiaggio.github.io/Pagination-Filtering/",
+            "github_link": "https://github.com/JamesPiaggio/Pagination-Filtering",
+            "image_urls": ["https://via.placeholder.com/550/"]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "A form that uses regular expressions to ensure a correctly submitted form.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://jamespiaggio.github.io/interactiveForm/",
+            "github_link": "https://github.com/JamesPiaggio/interactiveForm",
+            "image_urls": ["https://via.placeholder.com/550/"]
+        },
+        {
+            "id": 3,
+            "project_name": "Phrase Hunter",
+            "description": "An object-oriented word guessing game with a Super Nintendo theme.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://jamespiaggio.github.io/phraseHunter/",
+            "github_link": "https://github.com/JamesPiaggio/phraseHunter",
+            "image_urls": ["https://via.placeholder.com/550/"]
+        },
+        {
+            "id": 4,
+            "project_name": "Public API request",
+            "description": "A website that requests data using FetchAPI, then uses the data to create an employee directory.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://jamespiaggio.github.io/publicApiRequest/",
+            "github_link": "https://github.com/JamesPiaggio/publicApiRequest",
+            "image_urls": ["https://via.placeholder.com/550/"]
+        }
+    ]
+}

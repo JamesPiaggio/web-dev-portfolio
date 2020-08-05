@@ -1,0 +1,24 @@
+{
+  "name": "expresssite",
+  "version": "1.0.0",
+  "description": "Portfolio site made using Express and Pug",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesPiaggio/ExpressSite.git"
+  },
+  "author": "James Piaggio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesPiaggio/ExpressSite/issues"
+  },
+  "homepage": "https://github.com/JamesPiaggio/ExpressSite#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  }
+}
