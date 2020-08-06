@@ -22,7 +22,9 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/projects/:id', (req, res) => {
-        res.render('project', { projects });
+  const projectId = req.params.id;
+  const project = projects.find( ( { id } ) => id === +projectId);
+        res.render('project', { project });
 });
 
 app.listen(3000, () => {
