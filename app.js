@@ -27,6 +27,18 @@ app.get('/projects/:id', (req, res) => {
         res.render('project', { project });
 });
 
+app.use((req, res, next) => {
+  const err = new Error('Oops! Page not found');
+  err.status = 404;
+  next(err);
+});
+
+app.use((err, req, res, next) => {
+  res.locals.error = err;
+  res.status(err.status || 500);
+  res.render('error');
+});
+
 app.listen(3000, () => {
     console.log('Application running on port 3000..');
 });
