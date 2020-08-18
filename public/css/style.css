@@ -1,6 +1,23 @@
+.thumbnail {
+  border-radius: 10px;
+  border-color: #45A29E;
+}
+
+pre {
+  color: #66FCF1;
+}
+
+body {
+  background-color:#1F2833;
+  ;
+}
+a h5 {
+  text-align: center;
+}
 
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
+  color: #66FCF1;
 }
 
   h5{
@@ -15,63 +32,62 @@ h1,h2,h3,h4,h5,p{
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
     font-weight: 600;
+    color: #66FCF1
   }
 
   p{
     font-size: 15px;
-    color: #666;
+    color: #45A29E;
   }
 
 .round{
   border-radius: 5px;
 }
 
-.text-light{
-  color: #666;
-}
-
 .button{
-  background-color: #333;
+  background-color: #C5C6C7;
+  color: #0B0C10;
 }
 
 .button:hover{
-  background-color: #111;
+  background-color: #45A29E;
+  color: #0B0C10;
+  transition: .3s ease;
 }
 
 a{
-  color: #333;
+  color: #C5C6C7;
 }
 
 a:hover{
-  color: #111;
+  color: #45A29E;
 }
 
 .image{
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
-  border: solid 4px #fefefe;
-  border-radius: 0;
+  border: solid 4px #45A29E;
+  border-radius: 10px;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
 }
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
-  color: #fff;
+  background: #1F2833;
   box-shadow: none !important;
 }
 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color: #C5C6C7;
   }
 
   .portfolio-me a{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
-    color: #555;
+    color: #C5C6C7;
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
@@ -79,22 +95,29 @@ a:hover{
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    color: #45A29E;
+    transition: .3s ease;
   }
 
 .portfolio-breadcrumb{
   margin: 0;
   padding: 20px;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #45A29E;
 }
 
  .portfolio-breadcrumb a{
    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
    font-weight: 600;
    font-size: 13px;
+   color: #C5C6C7;
    letter-spacing: 2.5px;
    -webkit-text-transform: uppercase;
    text-transform: uppercase;
+ }
+ 
+ .portfolio-breadcrumb a:hover {
+   color: #45A29E;
+   transition: .3s ease;
  }
 
 .portfolio-intro{
@@ -103,8 +126,9 @@ a:hover{
 }
 
 .portfolio-intro p{
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #45A29E;
   padding-bottom: 40px;
+  color: #C5C6C7;
 }
 
 .portfolio-index{
@@ -117,7 +141,7 @@ a:hover{
   }
 
   .portfolio-index a{
-    color: #222;
+    color: #C5C6C7;
   }
 
   .portfolio-index .cell{
@@ -142,7 +166,7 @@ a:hover{
 
 .portfolio-project li{
   font-size: 13px;
-  color: #444;
+  color: #45A29E;
 }
 
 .portfolio-bio{

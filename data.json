@@ -27,7 +27,7 @@
         {
             "id": 2,
             "project_name": "Interactive Form",
-            "description": "A form that uses regular expressions to ensure a correctly submitted form.",
+            "description": "A form that uses regular expressions to ensure properly filled out.",
             "technologies": ["HTML", "CSS", "JavaScript", "Form Validation"],
             "live_link": "https://jamespiaggio.github.io/interactiveForm/",
             "github_link": "https://github.com/JamesPiaggio/interactiveForm",
