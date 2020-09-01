@@ -2,18 +2,6 @@
     "projects": [
         {
             "id": 0,
-            "project_name": "Random Quote Generator",
-            "description": "A website that randomly selects a quote and displays it with a different color every 9 seconds.",
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "https://jamespiaggio.github.io/RandomQuote/",
-            "github_link": "https://github.com/JamesPiaggio/RandomQuote",
-            "image_urls": ["/static/images/randomQuote1.png",
-                            "/static/images/randomQuote2.png",
-                            "/static/images/randomQuote3.png",
-                            "/static/images/randomQuote4.png"]
-        },
-        {
-            "id": 1,
             "project_name": "Pagination and Filtering",
             "description": "A website that dynamically adds pagination for 10 students per page and filtering with a dynamic searchbar.",
             "technologies": ["HTML", "CSS", "JavaScript"],
@@ -23,6 +11,18 @@
                             "/static/images/paginationFiltering2.png",
                             "/static/images/paginationFiltering3.png",
                             "/static/images/paginationFiltering4.png"]
+        },
+        {
+            "id": 1,
+            "project_name": "Random Quote Generator",
+            "description": "A website that randomly selects a quote and displays it with a different color every 9 seconds.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://jamespiaggio.github.io/RandomQuote/",
+            "github_link": "https://github.com/JamesPiaggio/RandomQuote",
+            "image_urls": ["/static/images/randomQuote1.png",
+                            "/static/images/randomQuote2.png",
+                            "/static/images/randomQuote3.png",
+                            "/static/images/randomQuote4.png"]
         },
         {
             "id": 2,
