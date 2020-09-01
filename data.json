@@ -53,7 +53,7 @@
             "project_name": "Public API request",
             "description": "A website that requests data using FetchAPI, then uses the data to create an employee directory.",
             "technologies": ["HTML", "CSS", "JavaScript", "FetchAPI", "AJAX"],
-            "live_link": "https://jamespiaggio.github.io/publicApiRequest/",
+            "live_link": "https://jamespiaggio.github.io/PublicApiRequest",
             "github_link": "https://github.com/JamesPiaggio/publicApiRequest",
             "image_urls": ["/static/images/publicApi1.png",
                             "/static/images/publicApi2.png",
