@@ -1,3 +1,4 @@
+/* Require dependencies */
 const express = require('express');
 const { projects } = require('./data.json');
 const path = require('path');
@@ -17,18 +18,22 @@ app.get('/', (req, res) => {
   res.render('index', { projects });
 });
 
+/* About route */
 app.get('/about', (req, res) => {
   res.render('about', { projects });
 });
 
+/* Projects route */
 app.get('/projects/:id', (req, res) => {
   const projectId = req.params.id;
   const project = projects.find( ( { id } ) => id === +projectId);
         res.render('project', { project });
 });
 
+/* Error handler */
 app.use((req, res, next) => {
   const err = new Error('Oops! Page not found');
+  console.log(err);
   err.status = 404;
   next(err);
 });
@@ -39,6 +44,7 @@ app.use((err, req, res, next) => {
   res.render('error');
 });
 
+/* Set up local host */
 app.listen(3000, () => {
     console.log('Application running on port 3000..');
 });
