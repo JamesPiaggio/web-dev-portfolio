@@ -43,8 +43,3 @@ app.use((err, req, res, next) => {
   res.status(err.status || 500);
   res.render('error');
 });
-
-/* Set up local host */
-app.listen(3000, () => {
-    console.log('Application running on port 3000..');
-});

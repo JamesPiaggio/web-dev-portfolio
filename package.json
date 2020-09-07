@@ -17,8 +17,12 @@
     "url": "https://github.com/JamesPiaggio/ExpressSite/issues"
   },
   "homepage": "https://github.com/JamesPiaggio/ExpressSite#readme",
+  "engines": {
+    "node": "14.5.0"
+  },
   "dependencies": {
     "express": "^4.17.1",
+    "heroku": "^7.42.13",
     "pug": "^3.0.0"
   }
 }
