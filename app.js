@@ -2,6 +2,7 @@
 const express = require('express');
 const { projects } = require('./data.json');
 const path = require('path');
+const port = process.env.PORT || 3000;
 
 const app = express();
 const router = express.Router();
@@ -42,4 +43,9 @@ app.use((err, req, res, next) => {
   res.locals.error = err;
   res.status(err.status || 500);
   res.render('error');
+});
+
+/* Set up local host */
+app.listen(port, () => {
+    console.log('Application running on port');
 });
