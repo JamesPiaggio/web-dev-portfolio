@@ -164,6 +164,10 @@ a:hover{
     margin-bottom: 5px;
   }
 
+.portfolio-project {
+  margin: 0;
+}
+
 .portfolio-project p{
   border: none;
 }
