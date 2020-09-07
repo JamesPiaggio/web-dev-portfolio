@@ -103,7 +103,7 @@ a:hover{
   }
 
 .portfolio-breadcrumb{
-  margin: 0;
+  margin: auto;
   padding: 20px;
   border-bottom: 1px solid #45A29E;
 }
@@ -163,10 +163,6 @@ a:hover{
   .portfolio-meta .button{
     margin-bottom: 5px;
   }
-
-.portfolio-project {
-  margin: 0;
-}
 
 .portfolio-project p{
   border: none;
