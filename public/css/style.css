@@ -176,3 +176,7 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+
+li {
+  margin: 0;
+}
