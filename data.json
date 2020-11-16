@@ -7,58 +7,38 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://jamespiaggio.github.io/Pagination-Filtering/",
             "github_link": "https://github.com/JamesPiaggio/Pagination-Filtering",
-            "image_urls": ["/static/images/paginationFiltering1.png",
-                            "/static/images/paginationFiltering2.png",
-                            "/static/images/paginationFiltering3.png",
-                            "/static/images/paginationFiltering4.png"]
+            "image_urls": ["/static/images/pagination1.png",
+                            "/static/images/pagination.gif"]
         },
         {
             "id": 1,
-            "project_name": "Random Quote Generator",
-            "description": "A website that randomly selects a quote and displays it with a different color every 9 seconds.",
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "https://jamespiaggio.github.io/RandomQuote/",
-            "github_link": "https://github.com/JamesPiaggio/RandomQuote",
-            "image_urls": ["/static/images/randomQuote1.png",
-                            "/static/images/randomQuote2.png",
-                            "/static/images/randomQuote3.png",
-                            "/static/images/randomQuote4.png"]
-        },
-        {
-            "id": 2,
             "project_name": "Interactive Form",
             "description": "A form that uses regular expressions to ensure properly filled out.",
             "technologies": ["HTML", "CSS", "JavaScript", "Form Validation"],
             "live_link": "https://jamespiaggio.github.io/interactiveForm/",
             "github_link": "https://github.com/JamesPiaggio/interactiveForm",
-            "image_urls": ["/static/images/interactiveForm1.png",
-                            "/static/images/interactiveForm2.png",
-                            "/static/images/interactiveForm3.png",
-                            "/static/images/interactiveForm4.png"]
+            "image_urls": ["/static/images/form1.png",
+                            "/static/images/form.gif"]
         },
         {
-            "id": 3,
+            "id": 2,
             "project_name": "Phrase Hunter",
             "description": "An object-oriented word guessing game with a Super Nintendo theme.",
             "technologies": ["HTML", "CSS", "JavaScript", "Object-oriented Programming"],
             "live_link": "https://jamespiaggio.github.io/phraseHunter/",
             "github_link": "https://github.com/JamesPiaggio/phraseHunter",
             "image_urls": ["/static/images/phraseHunter1.png",
-                            "/static/images/phraseHunter2.png",
-                            "/static/images/phraseHunter3.png",
-                            "/static/images/phraseHunter4.png"]
+                            "/static/images/phraseHunter.gif"]
         },
         {
-            "id": 4,
+            "id": 3,
             "project_name": "Public API request",
             "description": "A website that requests data using FetchAPI, then uses the data to create an employee directory.",
             "technologies": ["HTML", "CSS", "JavaScript", "FetchAPI", "AJAX"],
             "live_link": "https://jamespiaggio.github.io/PublicApiRequest",
             "github_link": "https://github.com/JamesPiaggio/publicApiRequest",
             "image_urls": ["/static/images/publicApi1.png",
-                            "/static/images/publicApi2.png",
-                            "/static/images/publicApi3.png",
-                            "/static/images/publicApi4.png"]
+                            "/static/images/publicApi.gif"]
         }
     ]
 }
