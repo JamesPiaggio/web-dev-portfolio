@@ -23,6 +23,6 @@
   "dependencies": {
     "express": "^4.17.1",
     "heroku": "^7.42.13",
-    "pug": "^3.0.0"
+    "pug": "^3.0.1"
   }
 }
